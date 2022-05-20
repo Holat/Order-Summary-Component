@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-image: url(../frontend/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    font-family:'Red Hat Display', sans-serif;
+    font-weight: 500,700,900px;
+
+}
+.img{
+    border-top-left-radius:.5em ;
+    border-top-right-radius:.5em;
+}
+p{
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.container{
+  background-color: white;
+  width: 350px;
+  margin: 50px auto 50px auto;
+  border-radius: .5em;
+  box-shadow: 0 10px 10px rgba(0, 0, 100, 0.4);
+}
+section{
+    margin-bottom: 300px;
+}
+footer{
+    text-align: center;
+    background-color:hsl(245, 75%, 52%) ;
+    color: white;
+}
+footer a{
+    color: white;
+}
+.section{
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    color: hsl(223, 47%, 23%);
+}
+h3{
+    color: hsl(223, 47%, 23%);
+}
+.price-container{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: .3em;
+    padding: 15px;
+    width: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    display:flex ;
+}
+.annual{
+    padding-left: 5px;
+}
+.btn{
+    width: auto;
+}
+
+.btn1{
+    background-color: hsl(245, 75%, 52%);
+    display: block;
+    color: white;
+    border: none;
+    border-radius: .3em;
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 100, 0.2);
+}
+.btn{
+    align-items: center;
+}
+a{
+    color: hsl(245, 75%, 52%);
+}
+a:hover{
+    color: hsl(245, 70%, 61%);
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color:  hsl(245, 70%, 61%);
+    cursor: pointer;
+}
+.btn2{
+    border:none ;
+    background-color: white;
+    display: block;
+    width: 100%;
+
+}
+.btn2:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
